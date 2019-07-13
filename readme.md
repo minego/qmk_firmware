@@ -1,3 +1,12 @@
+# To flash the quefrency board with this layout:
+    Right:
+        make keebio/quefrency/rev1:minego:dfu-split-right
+
+    Left:
+        make keebio/quefrency/rev1:minego:dfu-split-left
+
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
