@@ -33,13 +33,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC, KC_BSLS, \
     CTRLESC, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_ENT,  \
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, TP_UP,   TP_UP,   \
-    KC_LCTL, KC_LGUI, KC_LALT, MO(FN_1),SH_SPC,           SH_SPC,  SH_SPC,  KC_RALT, TP_LEFT, TP_LEFT, TP_DOWN, TP_RGHT
+    KC_LCTL, KC_LGUI, KC_LALT, TT(FN_1),SH_SPC,           SH_SPC,  SH_SPC,  KC_RALT, TP_LEFT, TP_LEFT, TP_DOWN, TP_RGHT
   ),
 
   [FN_1] = LAYOUT(
     KC_ESC,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL,  KC_BSPC, \
     _______, _______, _______, _______, _______, _______, _______, KC_PGUP, _______, _______, _______, _______, _______, _______, \
-    _______, _______, _______, KC_PGDN, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, _______, TG(FN_1),\
+    _______, _______, _______, KC_PGDN, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, _______, TO(FN_1),\
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_UP,   _______, \
     _______, _______, _______, _______, _______,          _______, _______, _______, KC_LEFT, KC_LEFT, KC_DOWN, KC_RGHT
   )
