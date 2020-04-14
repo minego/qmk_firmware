@@ -29,5 +29,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 #define FORCE_NKRO
-
+#define SPLIT_USB_DETECT
 
